@@ -8,7 +8,7 @@ print(muses)
 
 # Start streaming from the first available Muse
 #stream(muses[0]['address'], ppg_enabled=True, acc_enabled=True, gyro_enabled=True)
-record(10)
+record(50)
 # Subscribe to the stream and print incoming data
 
 
