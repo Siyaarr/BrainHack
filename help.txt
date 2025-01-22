@@ -1,0 +1,1 @@
+muselsl stream --ppg --acc --gyro --name MuseS-8C0A 
