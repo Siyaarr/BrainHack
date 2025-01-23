@@ -6,8 +6,6 @@ def print_data(data):
 muses = list_muses()
 print(muses)
 
-# Start streaming from the first available Muse
-#stream(muses[0]['address'], ppg_enabled=True, acc_enabled=True, gyro_enabled=True)
 record(1000)
 # Subscribe to the stream and print incoming data
                        
@@ -15,4 +13,4 @@ record(1000)
 
 
 # Note: Streaming is synchronous, so code here will not execute until after the stream has been closed
-print('Stream has ended')
+print('Stream has ended')   
